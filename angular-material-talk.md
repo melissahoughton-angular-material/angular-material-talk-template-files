@@ -9,24 +9,23 @@
 commit, then add angular material and show diff at start of demo
 \*/
 
-## Differences in files after adding angular mat
+## Differences in files after adding angular mat - Example App project
 
 - I have already run the new angular app command and add material
 - On adding material it asked if I wanted typography and animations and I said yes to both
 - It will also ask you want to use one of the default themes - talk about default themes
 
+## Jump to Angular-Material-Talk project
+
+- Show how added material module
+- We will copy all for this demo as it makes the modules available from all components without having to import individul, easier for learning
+- Does increase your bundle size and you are importing more than you need, if its a production app only import what you need
+
 ## Need to add in material module
 
 [Ang Mat Form Field Doc to copy](https://material.angular.io/components/form-field/overview)
 
-- Add in first material module, copying from the docs but it will fail, this because we are not yet importing them
-- Can import into individual compontents or import into the overarching app
-- We will copy all for this demo as it makes the modules available from all components without having to import individul, easier for learning
-- Does increase your bundle size and you are importing more than you need, if its a production app only import what you need
-- To further simplify I have setup a page with all of the material modules that you can copy into your project
-- Lets do that now
-- // Copy and paste material module folder from other project
-- // import into app, and build
+- Add in first material module, copying from the docs and take a look
 - Part of the theme is also to have a background color, to have the apply globally, we also want to add in the class `mat-app-background` to the `index.html`
 
 ## Look at angular material components
