@@ -1,4 +1,13 @@
-// Before strating, run ng new, setup styles in app.component.scss, remove default html text, add in `div class="container"`, commit, then add angular material and show diff
+/\* Before strating, run ng new, setup styles in app.component.scss, remove default html text, add in
+
+```
+<div class="container">
+  <h1>Hello world!</h1>
+</div>
+```
+
+commit, then add angular material and show diff at start of demo
+\*/
 
 ## Differences in files after adding angular mat
 
